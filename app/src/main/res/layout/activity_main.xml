@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.czh.line.widget.Line
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:coordinatesLineColor="#44000000"
+        app:coordinatesLineWidth="0.5dp"
+        app:coordinatesTextColor="#aa000000"
+        app:coordinatesTextSize="12sp"
+        app:lineColor="#000000"
+        app:lineTextColor="#aa000000"
+        app:lineTextSize="13sp"
+        app:lineWidth="2dp"
+        app:maxCircleColor="#000000"
+        app:maxCircleRadius="2.5dp"
+        app:minCircleColor="#ffffff"
+        app:minCircleRadius="2dp"
+        app:verticalLineColor="#20000000"
+        app:verticalLineWidth="0.5dp" />
+
+</RelativeLayout>
